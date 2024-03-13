@@ -248,13 +248,13 @@ button {
 }
 
 ul {
-	list-style-type: none; /* Remove bullet points */
+	list-style-type: ""; /* Remove bullet points */
 	padding: 0;
 	margin: 0 auto; /* Center the ul element */
 	width: fit-content; /* Set width to content width */
 }
 li {
-	list-style-type: none;
+	list-style-type: "";
 	display: inline-block;
 	margin-right: 20px; /* Adjust spacing between logos */
 }
