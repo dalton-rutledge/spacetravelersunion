@@ -261,13 +261,25 @@ button {
     border-radius: 0;
 }
 
-.social-media-links {
-	margin-bottom: 20px;
-}
 .social-media-links a {
 	display: inline-block;
 	margin: 0 10px; /* Adjust spacing between icons */
+	margin-bottom: 20px;
 }
+
+/* Media query for desktop screens */
+@media screen and (min-width: 768px) {
+    .social-media-links a img {
+        width: 40px; /* Set larger width for desktop */
+        height: auto; /* Maintain aspect ratio */
+    }
+}
+
+/* Media query for mobile screens (optional, if needed) */
+@media screen and (max-width: 767px) {
+    /* Define styles for smaller screens if necessary */
+}
+
 
 .phone {
 	color: pink;
