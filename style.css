@@ -75,6 +75,7 @@ body {
 }
 html, body {
 	font-size: 24px;
+	text-align: center;
 }
 
 .Ryan {
@@ -247,16 +248,12 @@ button {
     border-radius: 0;
 }
 
-ul {
-	list-style-type: ""; /* Remove bullet points */
-	padding: 0;
-	margin: 0 auto; /* Center the ul element */
-	width: fit-content; /* Set width to content width */
+.social-media-links {
+	margin-top: 20px;
 }
-li {
-	list-style-type: "";
+.social-media-links a {
 	display: inline-block;
-	margin-right: 20px; /* Adjust spacing between logos */
+	margin: 0 10px; /* Adjust spacing between icons */
 }
 
 
