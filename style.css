@@ -298,7 +298,16 @@ button {
 .artist-image {
 	float: left;
 	margin-right: 20px;
-	max-width: 300px;
+	max-width: 100%; /* Image will resize based on container width */
+	height: auto; /* Maintain aspect ratio */
+}
+
+@media (max-width: 768px) {
+	.artist-image {
+		float: left;
+		margin-right: 0;
+		max-width: 100%;
+	}
 }
 
 .bio-content {
