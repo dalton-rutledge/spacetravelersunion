@@ -250,7 +250,8 @@ button {
 ul {
 	list-style-type: none;
 	padding: 0;
-	margin: 0;
+	margin: 0 auto; /* Center the ul element */
+	width: fit-content; /* Set width to content width */
 }
 li {
 	display: inline-block;
