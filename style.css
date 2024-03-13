@@ -72,12 +72,16 @@ body {
     color: green;
 }
 .bordered-image {
-    border: 10px solid yellow; /* You can adjust border properties as needed */
+    border-image: linear-gradient(to right, #6666ff, #0099ff, #00ff00, #ff3399, #6666ff) 1;
+	border-width: 10px;
+	border-style: solid; /* You can adjust border properties as needed */
     /* You can also use other image-specific CSS properties here */
+	
 }
 html, body {
 	font-size: 24px;
 	text-align: center;
+	line-height: 1.6;
 }
 
 .Ryan {
@@ -270,4 +274,34 @@ button {
 	text-decoration: none;
 }
 
+.bio-text {
+	overflow: hidden;
+}
 
+.rainbow_color {
+	background: linear-gradient(to right, #6666ff, #0099ff, #00ff00, #ff3399, #6666ff);
+	color: transparent;
+	-webkit-background-clip: text;
+	background-clip: text;
+}
+
+.body_text {
+	color: yellow;
+}
+
+.bio_container {
+	max-width: 900px;
+	margin: auto;
+	overflow: hidden;
+}
+
+.artist-image {
+	float: left;
+	margin-right: 20px;
+	max-width: 300px;
+}
+
+.bio-content {
+	margin-top: 20px;
+	overflow: hidden; /* Clear floats */
+}
