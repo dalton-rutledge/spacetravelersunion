@@ -196,6 +196,13 @@ letter-spacing
 	font-weight: bold;
 }
 
+.nav-box a:hover {
+	text-decoration: none;
+	color: rgb(15, 12, 12);
+	font-weight: bold;
+}
+
+
 .center-container {
     margin-top: 10px;
     float: top;
@@ -258,5 +265,9 @@ button {
 	margin: 0 10px; /* Adjust spacing between icons */
 }
 
+.phone {
+	color: pink;
+	text-decoration: none;
+}
 
 
