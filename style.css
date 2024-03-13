@@ -279,7 +279,7 @@ button {
 @media screen and (max-width: 767px) {
     /* Define styles for smaller screens if necessary */
     .social-media-links a img {
-        width: 25px; /* Set smaller width for mobile */
+        width: 40px; /* Set smaller width for mobile */
         height: auto; /* Maintain aspect ratio */
     }
 }
