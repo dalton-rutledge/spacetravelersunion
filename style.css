@@ -270,7 +270,7 @@ button {
 /* Media query for desktop screens */
 @media screen and (min-width: 768px) {
     .social-media-links a img {
-        width: 40px; /* Set larger width for desktop */
+        width: 100px; /* Set larger width for desktop */
         height: auto; /* Maintain aspect ratio */
     }
 }
@@ -278,6 +278,10 @@ button {
 /* Media query for mobile screens (optional, if needed) */
 @media screen and (max-width: 767px) {
     /* Define styles for smaller screens if necessary */
+    .social-media-links a img {
+        width: 25px; /* Set smaller width for mobile */
+        height: auto; /* Maintain aspect ratio */
+    }
 }
 
 
