@@ -33,18 +33,16 @@
 			<a href="cats.html">Cats</a>
 		</div>
         <div class="nav-box">
-			<a href="game.html">Cats</a>
+			<a href="game.html">Game</a>
 		</div>
 	</div>
 
     <div class="center-container">
-		<h1 style="color: white; ">Play this cool game</h1>
-		<p style="color: red;">(turn phone sideways)</p>
-		<h1 id="startButton" style="color: yellow;border: 2px solid green;">Click to start</h1>
+		
 
 		<img id="characterImage" src="images/face.png" style="display: none;">
 		<div id="canvas"></div>
-
+        <h1 id="startButton" style="color: yellow;border: 2px solid green;">Click to start</h1>
 		<button id="flyButton">fly</button>
 	</div>
 
@@ -103,8 +101,8 @@ function startGame() {
         }
 
         var canvas = document.createElement("canvas"); // Create a new canvas element
-        canvas.width = 480;
-        canvas.height = 270;
+        canvas.width = 720;
+        canvas.height = 405;
         canvasContainer.appendChild(canvas); // Append the canvas to the canvas container
         myGameArea.canvas = canvas; // Set the canvas for myGameArea
 
@@ -118,8 +116,8 @@ function startGame() {
 var myGameArea = {
     canvas: null, // Store the canvas element here
     start: function () {
-        this.canvas.width = 480;
-        this.canvas.height = 270;
+        this.canvas.width = 720;
+        this.canvas.height = 405;
         this.context = this.canvas.getContext("2d");
         this.frameNo = 0;
         this.interval = setInterval(updateGameArea, 20);
