@@ -350,5 +350,8 @@ button {
 	position: fixed;
 	max-width: 100px; /* Adjust the size as needed */
 	max-height: 100px;
+	width: auto;
+	height: auto;
 	z-index: 9999; /* Ensures it stays above other content without obscuring it */
+	object-fit: contain;
 }
