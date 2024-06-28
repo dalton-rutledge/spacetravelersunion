@@ -356,3 +356,9 @@ button {
 	z-index: 9999; /* Ensures it stays above other content without obscuring it */
 	object-fit: contain;
 }
+
+@media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
+    body {
+        cursor: url('logos/icons8-rocket-100.png') 32 32, auto; /* Higher resolution cursor with fallback */
+    }
+}
