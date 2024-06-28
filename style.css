@@ -64,13 +64,28 @@ body {
 	color: orange;
 }
 
-#col {
+#hg {
     color: yellow;
 }
 
-#dan {
-    color: green;
+#hh {
+    color: darkcyan;
 }
+
+#hi {
+    color: lightcoral;
+}
+
+#hj {
+    color: violet;
+}
+
+#hk {
+    color: crimson;
+}
+
+
+
 .bordered-image {
     border-image: linear-gradient(to right, #6666ff, #0099ff, #00ff00, #ff3399, #6666ff) 1;
 	border-width: 10px;
