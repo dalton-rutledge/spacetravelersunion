@@ -18,6 +18,19 @@
 <script src="script.js"></script>
 <title>Welcome to the Union</title>
 <link rel="icon" href="logos/stu_green.png" type="image/png">
+<style>
+	/* Apply the custom cursor to the entire body */
+	body {
+		cursor: url('/path/to/your/custom-cursor.png') 16 16, auto; /* Custom cursor with a fallback */
+	}
+
+	/* Higher resolution cursor for high DPI displays */
+	@media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
+		body {
+			cursor: url('/path/to/your/custom-cursor@2x.png') 32 32, auto; /* Higher resolution cursor with fallback */
+		}
+	}
+</style>
 </head>
 <body>
 
