@@ -7,7 +7,7 @@ body {
 	background-size: 100px 150px;
 	background-attachment: fixed;
 	text-align: center;
-	cursor: url('logos/icons8-rocket-100.png'), auto;
+	cursor: url('logos/icons8-rocket-3232.png'), auto;
 }
 
 #banner {
@@ -359,6 +359,6 @@ button {
 
 @media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
     body {
-        cursor: url('logos/icons8-rocket-100.png') 32 32, auto; /* Higher resolution cursor with fallback */
+        cursor: url('logos/icons8-rocket-3232.png') 32 32, auto; /* Higher resolution cursor with fallback */
     }
 }
