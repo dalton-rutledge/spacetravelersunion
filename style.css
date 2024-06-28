@@ -345,3 +345,10 @@ button {
 	margin-top: 20px;
 	overflow: hidden; /* Clear floats */
 }
+
+.floating-logo {
+	position: fixed;
+	width: 100px; /* Adjust the size as needed */
+	height: 100px;
+	z-index: 9999; /* Ensures it stays above other content without obscuring it */
+}
